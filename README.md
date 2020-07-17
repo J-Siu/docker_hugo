@@ -159,6 +159,8 @@ docker run --rm jsiu/hugo cat /README.md > README.md
     - ${MY_THM_DIR}
 - 0.73.0-r0
   - Auto update to 0.73.0-r0
+- 0.74.1-r0
+  - Auto update to 0.74.1-r0
 <!--CHANGE-LOG-END-->
 
 The MIT License
