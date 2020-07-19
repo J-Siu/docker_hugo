@@ -9,6 +9,7 @@ echo MY_TZ:${MY_TZ}
 echo MY_GIT_DIR:${MY_GIT_DIR}
 echo MY_GIT_URL:${MY_GIT_URL}
 echo MY_GIT_SUB:${MY_GIT_SUB}
+echo MY_GIT_SUB_REMOTE:${MY_GIT_SUB_REMOTE}
 echo MY_HUG_DIR:${MY_HUG_DIR}
 echo MY_PUB_DIR:${MY_PUB_DIR}
 echo MY_THM_DIR:${MY_THM_DIR}
@@ -91,9 +92,8 @@ GIT_CLONE_PULL ${MY_GIT_URL} ${MY_GIT_DIR}
 RUN_CMD "cd ${MY_GIT_DIR}"
 
 # --- GIT Sub-module
-if [ ! -z ${MY_GIT_SUB} ]; then
-	RUN_CMD "git submodule update --init --recursive"
-fi
+[ ! -z ${MY_GIT_SUB_REMOTE} ] && _GIT_REMOTE="--remote"
+[ ! -z ${MY_GIT_SUB} ] &&	RUN_CMD "git submodule update --init --recursive ${_GIT_REMOTE}"
 
 # --- Prepare publish directory
 if [ ! -z ${MY_PUB_DIR} ]; then

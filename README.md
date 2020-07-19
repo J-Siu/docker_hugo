@@ -19,6 +19,7 @@ ${WWW_VOL}|/www|yes|n/a|Base dir/volume Hugo publish to
 ${MY_GIT_DIR}|${MY_GIT_DIR}|no|/hugo|Git clone/pull destination.
 ${MY_GIT_URL}|${MY_GIT_URL}|yes|n/a|Git will clone/pull from this URL.
 ${MY_GIT_SUB}|${MY_GIT_SUB}|no|n/a|If defined(not empty), pull git sub-module
+${MY_GIT_SUB_REMOTE}|${MY_GIT_SUB_REMOTE}|no|n/a|If defined(not empty), pull git sub-module with `--remote`
 ${MY_HUG_DIR}|${MY_HUG_DIR}|no|n/a|Relative path to ${MY_GIT_DIR}, default empty.
 ${MY_PUB_DIR}|${MY_PUB_DIR}|no|n/a|Override publish directory. Hugo default `public` or defined in site config(`publishDir`).
 ${MY_THM_DIR}|${MY_THM_DIR}|no|/theme|Hugo theme clone/pull destination.
@@ -163,6 +164,8 @@ docker run --rm jsiu/hugo cat /README.md > README.md
   - Auto update to 0.74.1-r0
 - 0.74.2-r0
   - Auto update to 0.74.2-r0
+- 0.74.2-r0-p1
+  - Add `MY_GIT_SUB_REMOTE` option
 <!--CHANGE-LOG-END-->
 
 The MIT License
