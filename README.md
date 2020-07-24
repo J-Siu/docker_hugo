@@ -166,6 +166,8 @@ docker run --rm jsiu/hugo cat /README.md > README.md
   - Auto update to 0.74.2-r0
 - 0.74.2-r0-p1
   - Add `MY_GIT_SUB_REMOTE` option
+- 0.74.3-r0
+  - Auto update to 0.74.3-r0
 <!--CHANGE-LOG-END-->
 
 The MIT License
