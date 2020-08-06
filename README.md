@@ -1,5 +1,20 @@
 Docker - Hugo site generator used in CI/CD.
 
+This is used in my [blog automation](/blog/jenkins-blog-automation/).
+
+<!-- TOC -->
+
+- [Build](#build)
+- [Usage](#usage)
+  - [Environment Variable and Volume Mapping](#environment-variable-and-volume-mapping)
+  - [Run](#run)
+  - [Extract](#extract)
+- [Repository](#repository)
+- [Contributors](#contributors)
+- [Change Log](#change-log)
+
+<!-- /TOC -->
+
 ### Build
 
 ```sh
@@ -125,7 +140,7 @@ docker run --rm --name hugo \
 jsiu/hugo --theme sk3 --themesDir /www/themes
 ```
 
-#### Compose
+#### Extract
 
 Get `REAME.md` from image:
 
@@ -135,7 +150,7 @@ docker run --rm jsiu/hugo cat /README.md > README.md
 
 ### Repository
 
-- [docker_compose](https://github.com/J-Siu/docker_hugo)
+- [docker_hugo](https://github.com/J-Siu/docker_hugo)
 
 ### Contributors
 
