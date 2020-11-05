@@ -187,6 +187,8 @@ docker run --rm jsiu/hugo cat /README.md > README.md
   - Auto update to 0.76.5-r0
 - 0.77.0-r0
   - Auto update to 0.77.0-r0
+- 0.78.0-r0
+  - Auto update to 0.78.0-r0
 <!--CHANGE-LOG-END-->
 
 The MIT License
