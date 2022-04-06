@@ -86,7 +86,7 @@ fi
 GIT_CLONE_PULL ${MY_GIT_URL} ${MY_GIT_DIR}
 
 # --- GIT Clone/Pull Theme
-[ ! -z ${MY_THM_URL} ] && GIT_CLONE_PULL ${MY_THM_DIR} ${MY_THM_URL}
+[ ! -z ${MY_THM_URL} ] && GIT_CLONE_PULL ${MY_THM_URL} ${MY_THM_DIR}
 
 # --- CD into repo
 RUN_CMD "cd ${MY_GIT_DIR}"
