@@ -209,6 +209,8 @@ docker run --rm jsiu/hugo cat /README.md > README.md
   - Auto update to 0.97.3-r0
 - 0.97.3-r0-p1
   - Add docker push github workflow
+- 0.98.0-r0
+  - Auto update to 0.98.0-r0
 <!--CHANGE-LOG-END-->
 
 The MIT License
