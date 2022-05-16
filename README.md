@@ -1,9 +1,11 @@
-Docker - Hugo site generator used in CI/CD.
+# Docker - Hugo site generator used in CI/CD [![Paypal donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?business=HZF49NM9D35SJ&no_recurring=0&currency_code=CAD)
 
 This is used in my [blog automation](/blog/jenkins-blog-automation/).
 
+### Table Of Content
 <!-- TOC -->
 
+- [Table Of Content](#table-of-content)
 - [Build](#build)
 - [Usage](#usage)
   - [Environment Variable and Volume Mapping](#environment-variable-and-volume-mapping)
@@ -142,7 +144,7 @@ jsiu/hugo --theme sk3 --themesDir /www/themes
 
 #### Extract
 
-Get `REAME.md` from image:
+Get `README.md` from image:
 
 ```docker
 docker run --rm jsiu/hugo cat /README.md > README.md
