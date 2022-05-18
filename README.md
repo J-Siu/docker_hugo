@@ -16,7 +16,7 @@ This is used in my [blog automation](/blog/jenkins-blog-automation/).
 - [Change Log](#change-log)
 
 <!-- /TOC -->
-
+<!--more-->
 ### Build
 
 ```sh
