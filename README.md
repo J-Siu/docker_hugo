@@ -1,7 +1,5 @@
 # Docker - Hugo site generator used in CI/CD [![Paypal donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?business=HZF49NM9D35SJ&no_recurring=0&currency_code=CAD)
 
-This is used in my [blog automation](/blog/jenkins-blog-automation/).
-
 ### Table Of Content
 <!-- TOC -->
 
@@ -17,6 +15,9 @@ This is used in my [blog automation](/blog/jenkins-blog-automation/).
 
 <!-- /TOC -->
 <!--more-->
+
+This is used in my [blog automation](/blog/jenkins-blog-automation/).
+
 ### Build
 
 ```sh
