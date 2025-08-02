@@ -240,6 +240,8 @@ docker run --rm jsiu/hugo cat /README.md > README.md
   - Add `MY_GIT_DEL` option
 - 0.148.1-r0-p2
   - Fix commit conflict
+- 0.148.2-r0
+  - Auto update to 0.148.2-r0
 <!--CHANGE-LOG-END-->
 
 The MIT License
