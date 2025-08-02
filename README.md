@@ -34,6 +34,7 @@ Host|Inside Container|Mapping Required|Default|Usage
 ---|---|---|---|---
 ${TZ}|${MY_TZ}|no|n/a|time zone
 ${WWW_VOL}|/www|yes|n/a|Base dir/volume Hugo publish to
+${MY_GIT_DEL}|${MY_GIT_DEL}|no|n/a|If set to "true", ${MY_GIT_DIR} will be cleared before git clone/pull.
 ${MY_GIT_DIR}|${MY_GIT_DIR}|no|/hugo|Git clone/pull destination.
 ${MY_GIT_URL}|${MY_GIT_URL}|yes|n/a|Git will clone/pull from this URL.
 ${MY_GIT_SUB}|${MY_GIT_SUB}|no|n/a|If defined(not empty), pull git sub-module
@@ -234,6 +235,8 @@ docker run --rm jsiu/hugo cat /README.md > README.md
   - Auto update to 0.114.0-r0
 - 0.148.1-r0
   - Auto update to 0.148.1-r0
+- 0.148.1-r0-p1
+  - Add `MY_GIT_DEL` option
 <!--CHANGE-LOG-END-->
 
 The MIT License

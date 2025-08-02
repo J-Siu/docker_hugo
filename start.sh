@@ -6,6 +6,7 @@
 HUGO_ARG=$@
 
 echo MY_TZ:${MY_TZ}
+echo MY_GIT_DEL:${MY_GIT_DEL}
 echo MY_GIT_DIR:${MY_GIT_DIR}
 echo MY_GIT_URL:${MY_GIT_URL}
 echo MY_GIT_SUB:${MY_GIT_SUB}
@@ -81,6 +82,9 @@ if [ "${#MY_TZ}" -gt "0" ]; then
 		echo "${MY_TZ}" >/etc/timezone
 	fi
 fi
+
+# --- Del Git Directory
+[ "${MY_GIT_DEL}" = "true" ] && RUN_CMD "rm -rf ${MY_GIT_DIR}"
 
 # --- GIT Clone/Pull Site
 GIT_CLONE_PULL ${MY_GIT_URL} ${MY_GIT_DIR}
