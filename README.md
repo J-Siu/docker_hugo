@@ -242,6 +242,8 @@ docker run --rm jsiu/hugo cat /README.md > README.md
   - Fix commit conflict
 - 0.148.2-r0
   - Auto update to 0.148.2-r0
+- 0.148.2-r1
+  - Auto update to 0.148.2-r1
 <!--CHANGE-LOG-END-->
 
 The MIT License
