@@ -1,6 +1,5 @@
 # Docker - Hugo site generator used in CI/CD [![Paypal donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?business=HZF49NM9D35SJ&no_recurring=0&currency_code=CAD)
 
-### Table Of Content
 <!-- TOC -->
 
 - [Build](#build)
@@ -77,6 +76,7 @@ docker run --rm --name hugo \
 -v CADDY_WWW:/www \
 -e P_TZ=America/New_York \
 -e MY_GIT_URL=https://github.com/J-Siu/johnsiu.com.git \
+-e MY_GIT_DEL=true \
 -e MY_GIT_SUB=true \
 -e MY_PUB_DIR=/www/johnsiu.com \
 jsiu/hugo
