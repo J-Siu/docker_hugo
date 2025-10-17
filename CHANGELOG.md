@@ -1,0 +1,87 @@
+- 1.0
+  - Initial commit.
+- 1.1
+  - Add README.md example.
+  - Add `${MY_GIT_DIR}`, `${MY_GIT_PUB}`.
+  - Fix cd into repository bug.
+- 0.72.0-r0
+  - Adopt Hugo version
+  - Hugo 0.72.0-r0
+- 0.72.0-r0-p1
+  - Removed
+    - ${MY_HUG_PUB}
+  - Added
+    - ${MY_THM_DIR}
+    - ${MY_THM_DIR}
+- 0.73.0-r0
+  - Auto update to 0.73.0-r0
+- 0.74.1-r0
+  - Auto update to 0.74.1-r0
+- 0.74.2-r0
+  - Auto update to 0.74.2-r0
+- 0.74.2-r0-p1
+  - Add `MY_GIT_SUB_REMOTE` option
+- 0.74.3-r0
+  - Auto update to 0.74.3-r0
+- 0.76.5-r0
+  - Auto update to 0.76.5-r0
+- 0.77.0-r0
+  - Auto update to 0.77.0-r0
+- 0.78.0-r0
+  - Auto update to 0.78.0-r0
+- 0.78.1-r0
+  - Auto update to 0.78.1-r0
+- 0.78.2-r0
+  - Auto update to 0.78.2-r0
+- 0.79.1-r0
+  - Auto update to 0.79.1-r0
+- 0.81.0-r0
+  - Auto update to 0.81.0-r0
+- 0.82.0-r0
+  - Auto update to 0.82.0-r0
+- 0.83.1-r0
+  - Auto update to 0.83.1-r0
+- 0.83.1-r1
+  - Auto update to 0.83.1-r1
+- 0.85.0-r0
+  - Auto update to 0.85.0-r0
+- 0.97.3-r0
+  - Auto update to 0.97.3-r0
+- 0.97.3-r0-p1
+  - Add docker push github workflow
+- 0.98.0-r0
+  - Auto update to 0.98.0-r0
+- 0.99.0-r0
+  - Auto update to 0.99.0-r0
+- 0.99.1-r0
+  - Auto update to 0.99.1-r0
+- 0.100.1-r0
+  - Auto update to 0.100.1-r0
+- 0.100.2-r0
+  - Auto update to 0.100.2-r0
+- 0.101.0-r0
+  - Auto update to 0.101.0-r0
+- 0.101.0-r1
+  - Auto update to 0.101.0-r1
+- 0.111.3-r0
+  - Auto update to 0.111.3-r0
+- 0.111.3-r2
+  - Auto update to 0.111.3-r2
+- 0.114.0-r0
+  - Auto update to 0.114.0-r0
+- 0.130.0-r0
+  - Auto update to 0.130.0-r0
+- 0.148.1-r0
+  - Auto update to 0.148.1-r0
+- 0.148.1-r0-p1
+  - Add `MY_GIT_DEL` option
+- 0.148.1-r0-p2
+  - Fix commit conflict
+- 0.148.2-r0
+  - Auto update to 0.148.2-r0
+- 0.148.2-r1
+  - Auto update to 0.148.2-r1
+- 0.150.0-r0
+  - Auto update to 0.150.0-r0
+- 0.151.0-r1
+  - Auto update to 0.151.0-r1

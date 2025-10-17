@@ -5,6 +5,7 @@ LABEL maintainers="[John Sing Dao Siu](https://github.com/J-Siu)"
 LABEL name="hugo"
 LABEL usage="https://github.com/J-Siu/docker_hugo/blob/master/README.md"
 LABEL description="Docker - Hugo site generator used in CI/CD"
+LABEL blog="[Jenkins Blog Automation](//johnsiu.com/blog/jenkins-blog-automation/)"
 
 COPY README.md start.sh /
 RUN apk --no-cache add \
