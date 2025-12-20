@@ -89,3 +89,5 @@
   - Auto update to 0.152.1-r0
 - 0.152.2-r0
   - Auto update to 0.152.2-r0
+- 0.152.2-r1
+  - Auto update to 0.152.2-r1
