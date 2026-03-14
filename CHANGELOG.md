@@ -97,3 +97,5 @@
   - Auto update to 0.152.2-r3
 - 0.155.3-r3
   - Auto update to 0.155.3-r3
+- 0.157.0-r0
+  - Auto update to 0.157.0-r0
