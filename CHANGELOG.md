@@ -107,3 +107,5 @@
   - Auto update to 0.160.1-r0
 - 0.160.1-r1
   - Auto update to 0.160.1-r1
+- 0.160.1-r2
+  - Auto update to 0.160.1-r2
