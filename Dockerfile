@@ -1,5 +1,5 @@
 FROM alpine:edge
-ARG VERSION="0.164.0-r0"
+ARG VERSION="0.169.0-r1"
 LABEL version=${VERSION}
 LABEL maintainers="[John Sing Dao Siu](https://github.com/J-Siu)"
 LABEL name="hugo"
@@ -12,7 +12,7 @@ RUN apk --no-cache add \
 	ca-certificates \
 	ca-certificates-bundle \
 	git \
-hugo=0.164.0-r0 \
+hugo=0.169.0-r1 \
 	tzdata \
 	&& git config --global pull.rebase false \
 	&& chmod +x /start.sh

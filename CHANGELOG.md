@@ -111,3 +111,5 @@
   - Auto update to 0.160.1-r2
 - 0.164.0-r0
   - Auto update to 0.164.0-r0
+- 0.169.0-r1
+  - Auto update to 0.169.0-r1
